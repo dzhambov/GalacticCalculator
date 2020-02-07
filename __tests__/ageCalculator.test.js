@@ -7,6 +7,6 @@ describe ('Person', () => {
     userPerson = new Person(45);
   });
   test('should show how old is the person on Earth', () => {
-    expect(userPerson.age).toEqual(40);
+    expect(userPerson.age).toEqual(45);
   });
 });
