@@ -12,18 +12,18 @@ describe ('Person', () => {
   });
 
   test('should show how old is the person on Mercury', () => {
-    expect(userPerson.calculateMercuryAge(45)).toEqual(10.799999999999999);
+    expect(userPerson.calculateMercuryAge(45)).toEqual(11);
   });
 
   test('should show how old is the person on Venus', () => {
-    expect(userPerson.calculateVenusAge(45)).toEqual(27.9);
+    expect(userPerson.calculateVenusAge(45)).toEqual(28);
   });
 
   test('should show how old is the person on Mars', () => {
-    expect(userPerson.calculateMarsAge(45)).toEqual(84.6);
+    expect(userPerson.calculateMarsAge(45)).toEqual(85);
   });
   
   test('should show how old is the person on Jupiter', () => {
-    expect(userPerson.calculateJupiterAge(45)).toEqual(533.6999999999999);
+    expect(userPerson.calculateJupiterAge(45)).toEqual(534);
   });
 });

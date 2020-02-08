@@ -4,27 +4,23 @@ export class Person {
     this.age = age;
   };
   
-  calculateMercuryAge() {
-    let age = this.age;
-    let mercuryAge = (age * 0.24);
+  calculateMercuryAge(age) {
+    let mercuryAge = parseInt(Math.round(age * 0.24));
     return mercuryAge;
   };
 
-  calculateVenusAge() {
-    let age = this.age;
-    let venusAge = (age * 0.62);
+  calculateVenusAge(age) {
+    let venusAge = parseInt(Math.round(age * 0.62));
     return venusAge;
   };
   
-  calculateMarsAge() {
-    let age = this.age;
-    let marsAge = (age * 1.88);
+  calculateMarsAge(age) {
+    let marsAge = parseInt(Math.round(age * 1.88));
     return marsAge;
   };
   
-  calculateJupiterAge() {
-    let age = this.age;
-    let JupiterAge = (age * 11.86);
+  calculateJupiterAge(age) {
+    let JupiterAge = parseInt(Math.round(age * 11.86));
     return JupiterAge;
   };
   
