@@ -11,7 +11,7 @@ export class Person {
   };
   calculateVenusAge() {
     let age = this.age;
-    let mercuryAge = ((age * 0.62));
+    let venusAge = ((age * 0.62));
     return venusAge;
   };
   
