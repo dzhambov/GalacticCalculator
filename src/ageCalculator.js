@@ -4,9 +4,9 @@ export class Person {
     this.age = age;
   } 
   
-  constructorMercury() {
+  calculateMercuryAge() {
     let age = this.age;
-    let mercuryAge = (age * .24);
+    let mercuryAge = ((age * 0.24));
     return mercuryAge;
   };
   
