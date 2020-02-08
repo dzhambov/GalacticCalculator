@@ -26,4 +26,8 @@ describe ('Person', () => {
   test('should show how old is the person on Jupiter', () => {
     expect(userPerson.calculateJupiterAge(45)).toEqual(534);
   });
+
+  test('should show how many years the user has left to live or has lived past the life expectancy', () => {
+    expect(userPerson.calcEarthLE()).toEqual(34);
+  });
 });

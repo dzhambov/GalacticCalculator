@@ -24,4 +24,16 @@ export class Person {
     return JupiterAge;
   };
   
+    calcEarthLE() {
+      let age = this.age;
+      const earthLE = 78;
+      const leftToLive = (earthLE - age);
+      const livedPast = (age - earthLE);
+        if (age <= earthLE) {
+          return "Stay strong " + leftToLive;
+        } else {
+          return "Good job " + livedPast;
+        };
+
+    }
 }
