@@ -9,5 +9,10 @@ export class Person {
     let mercuryAge = ((age * 0.24));
     return mercuryAge;
   };
+  calculateVenusAge() {
+    let age = this.age;
+    let mercuryAge = ((age * 0.62));
+    return venusAge;
+  };
   
 }
