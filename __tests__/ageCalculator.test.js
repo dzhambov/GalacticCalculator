@@ -20,6 +20,6 @@ describe ('Person', () => {
     expect(userPerson.calculateMarsAge(45)).toEqual(84.6);
   });
   test('should show how old is the person on Jupiter', () => {
-    expect(userPerson.calculateJupiterAge(45)).toEqual(84.6);
+    expect(userPerson.calculateJupiterAge(45)).toEqual(533.6999999999999);
   });
 });
