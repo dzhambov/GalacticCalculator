@@ -21,6 +21,7 @@ export class Person {
     let marsAge = (age * 1.88);
     return marsAge;
   };
+  
   calculateJupiterAge() {
     let age = this.age;
     let JupiterAge = (age * 11.86);
