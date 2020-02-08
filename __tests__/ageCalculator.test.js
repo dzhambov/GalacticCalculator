@@ -16,4 +16,7 @@ describe ('Person', () => {
   test('should show how old is the person on Venus', () => {
     expect(userPerson.calculateVenusAge(45)).toEqual(27.9);
   });
+  test('should show how old is the person on Mars', () => {
+    expect(userPerson.calculateMarsAge(45)).toEqual(27.9);
+  });
 });
