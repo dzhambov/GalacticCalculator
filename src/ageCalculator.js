@@ -6,13 +6,13 @@ export class Person {
   
   calculateMercuryAge() {
     let age = this.age;
-    let mercuryAge = ((age * 0.24));
+    let mercuryAge = (age * 0.24);
     return mercuryAge;
   };
 
   calculateVenusAge() {
     let age = this.age;
-    let venusAge = ((age * 0.62));
+    let venusAge = (age * 0.62);
     return venusAge;
   };
   
@@ -20,6 +20,11 @@ export class Person {
     let age = this.age;
     let marsAge = (age * 1.88);
     return marsAge;
+  };
+  calculateJupiterAge() {
+    let age = this.age;
+    let JupiterAge = (age * 11.86);
+    return JupiterAge;
   };
   
 }
