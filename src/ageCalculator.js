@@ -67,4 +67,15 @@ export class Person {
         return "Good job " + livedPast;
       };
   }
+
+  calcJupiterLifeSpan() {
+    const earthLE = 78;
+    const leftToLive = parseInt(Math.round(earthLE - this.age) / 11.86);
+    const livedPast = parseInt(Math.round(this.age - earthLE) / 11.86);
+      if (this.age <= earthLE) {
+        return "Stay strong " + leftToLive;
+      } else {
+        return "Good job " + livedPast;
+      };
+  }
 }
