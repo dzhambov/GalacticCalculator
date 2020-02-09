@@ -45,4 +45,15 @@ export class Person {
         return "Good job " + livedPast;
       };
   }
+
+  calcVenusLifeSpan() {
+    const earthLE = 78;
+    const leftToLive = parseInt(Math.round(earthLE - this.age) / 0.62);
+    const livedPast = parseInt(Math.round(this.age - earthLE) / 0.62);
+      if (this.age <= earthLE) {
+        return "Stay strong " + leftToLive;
+      } else {
+        return "Good job " + livedPast;
+      };
+  }
 }

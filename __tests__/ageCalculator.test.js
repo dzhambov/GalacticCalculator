@@ -35,4 +35,8 @@ describe ('Person', () => {
     expect(userPerson.calcMercuryLifeSpan()).toEqual("Stay strong 137");
   });
 
+  test('should show how many years the user has left to live or has lived past the life expectancy on Venus', () => {
+    expect(userPerson.calcVenusLifeSpan()).toEqual("Stay strong 53");
+  });
+
 });
