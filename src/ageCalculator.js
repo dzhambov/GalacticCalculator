@@ -25,11 +25,10 @@ export class Person {
   };
   
   calcEarthLifeSpan() {
-    let age = this.age;
     const earthLE = 78;
-    const leftToLive = (earthLE - age);
-    const livedPast = (age - earthLE);
-      if (age <= earthLE) {
+    const leftToLive = (earthLE - this.age);
+    const livedPast = (this.age - earthLE);
+      if (this.age <= earthLE) {
         return "Stay strong " + leftToLive;
       } else {
         return "Good job " + livedPast;
