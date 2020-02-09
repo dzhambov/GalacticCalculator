@@ -28,6 +28,6 @@ describe ('Person', () => {
   });
 
   test('should show how many years the user has left to live or has lived past the life expectancy', () => {
-    expect(userPerson.calcEarthLE()).toEqual(34);
+    expect(userPerson.calcEarthLifeSpan()).toEqual("Stay strong 33");
   });
 });
