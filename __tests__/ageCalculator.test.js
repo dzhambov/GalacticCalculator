@@ -40,7 +40,7 @@ describe ('Person', () => {
   });
 
   test('should show how many years the user has left to live or has lived past the life expectancy on Mars', () => {
-    expect(userPerson.calcMarsLifeSpan()).toEqual("Stay strong 53");
+    expect(userPerson.calcMarsLifeSpan()).toEqual("Stay strong 17");
   });
 
 });
